@@ -1,0 +1,48 @@
+body {
+    background-color: #D0F0C0;
+    font-family: "Montserrat Bold", sans-serif;
+}
+#home {
+    position: fixed;
+    background-color: #2F5D3A;
+    color: #DDD06A;
+    right: 20px;
+    padding: 10px;
+}
+#home:hover {
+    background-color: #DDD06A;
+    color: #2F5D3A;
+}
+#img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#title {
+    color: #2F5D3A;
+    text-align: center;
+    font-size: 60px;
+    margin: 10px;
+    margin-top: 20px;
+}
+.instructions {
+    display: flex;
+    flex: 1;
+    background-color: #DDD06A;
+    color: #2F5D3A;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-evenly;
+}
+
+.text {
+    font-size: 20px;
+}
+
+#caps {
+    background-color: #2F5D3A;
+    color: #DDD06A;
+    padding: 10px;
+}

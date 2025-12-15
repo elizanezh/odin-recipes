@@ -1,0 +1,41 @@
+body {
+    background-color: #D0F0C0;
+    font-family: "Montserrat Bold", sans-serif;
+}
+
+#img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title {
+    color: #2F5D3A;
+    text-align: center;
+    font-size: 60px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.recipes {
+    display: flex;
+    font-size: 20px;
+    padding: 15px;
+    gap: 20px;
+}
+
+.recipe {
+    display: flex;
+    flex: 1;
+    background-color: #2F5D3A;
+    color: #DDD06A;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.recipe:hover {
+    background-color: #DDD06A;
+    color:#2F5D3A;
+}
